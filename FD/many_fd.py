@@ -13,7 +13,6 @@ from tqdm import trange
 from FD.lenet import Net
 from learn.utils import MNIST
 
-
 try:
     from tqdm import tqdm
 except ImportError:

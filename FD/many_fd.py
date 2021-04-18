@@ -1,5 +1,7 @@
 import os
 import sys
+
+sys.path.append(".")
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 
 import numpy as np
@@ -11,7 +13,6 @@ from tqdm import trange
 from FD.lenet import Net
 from learn.utils import MNIST
 
-sys.path.append(".")
 
 try:
     from tqdm import tqdm

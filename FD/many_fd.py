@@ -245,6 +245,6 @@ if __name__ == '__main__':
             # saving features for nn regression
             np.save(feat_path + '_%s_mean' % (path), m2)
             np.save(feat_path + '_%s_variance' % (path), s2)
-            np.save(feat_path + '._%s_feature' % (path), act2)
+            np.save(feat_path + '_%s_feature' % (path), act2)
 
         np.save('./FD/fd_mnist.npy', fd_bg)

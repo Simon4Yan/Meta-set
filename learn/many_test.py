@@ -5,6 +5,7 @@ import argparse
 import os
 import sys
 
+sys.path.append(".")
 import numpy as np
 import torch
 import torch.nn as nn
@@ -13,8 +14,6 @@ from torchvision import transforms
 from tqdm import trange
 
 from learn.utils import MNIST
-
-sys.path.append(".")
 
 
 class Net(nn.Module):

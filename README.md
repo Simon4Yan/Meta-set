@@ -64,7 +64,7 @@ Please follow the instruction below to install it and run the experiment demo.
     ```bash
     # Please follow the instructions in the script to train the model
     # Save as "PROJECT_DIR/FD/mnist_regnet.pt"
-    python FD/linear_regression.py
+    python FD/train_regnet.py
     ``` 
         
 ## Citation

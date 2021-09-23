@@ -8,10 +8,11 @@
 
 This repository contains:
 
-- the PyTorch implementation of AutoEavl.
+- the PyTorch implementation of AutoEavl
 - the example on MNIST setup
 - FD calculation and two regression methods
-- [TODO] CIFAR-10/CIFAR-100 and COCO Setups (use [imgaug](https://imgaug.readthedocs.io/en/latest/) to generate Meta-set)
+- CIFAR-10/CIFAR-100 and COCO Setups (use [imgaug](https://imgaug.readthedocs.io/en/latest/) to generate Meta-set).
+  Please see ```PROJECT_DIR/image_transformation/```
 
 Please follow the instruction below to install it and run the experiment demo.
 

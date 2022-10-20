@@ -22,7 +22,8 @@ Please follow the instruction below to install it and run the experiment demo.
 * [COCO 2017 Dataset](http://cocodataset.org) (download and unzip to ```PROJECT_DIR/extra_data/```)
 * [MNIST dataset-link](https://drive.google.com/file/d/1wq8pIdayAbCu5MBfT1M38BATcShsaaeq/view?usp=sharing) (download and unzip to ```PROJECT_DIR/dataset/```)
 * Please use PyTorch1.1 to avoid compilation errors (other versions should be good)
-* You might need to change the file paths, and please be sure you change the corresponding paths in the codes as well     
+* You might need to change the file paths, and please be sure you change the corresponding paths in the codes as well  
+* Please see more details about COCO setup in https://github.com/Simon4Yan/Meta-set/issues/2  
 
 ## Getting started
 0. Install dependencies 
